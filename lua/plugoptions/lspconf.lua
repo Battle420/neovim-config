@@ -3,22 +3,22 @@ local lsp_status = require('lsp-status')
 
 vim.fn.sign_define(
   'DiagnosticSignError',
-  { text = '', texthl = 'LspDiagnosticsDefaultError' }
+  { text = '', texthl = 'LspDiagnosticsDefaultError' }
 )
 
 vim.fn.sign_define(
   'DiagnosticSignWarn',
-  { text = '', texthl = 'LspDiagnosticsDefaultWarning' }
+  { text = '', texthl = 'LspDiagnosticsDefaultWarning' }
 )
 
 vim.fn.sign_define(
   'DiagnosticSignInfo',
-  { text = '', texthl = 'LspDiagnosticsDefaultInformation' }
+  { text = '', texthl = 'LspDiagnosticsDefaultInformation' }
 )
 
 vim.fn.sign_define(
   'DiagnosticSignHint',
-  { text = '', texthl = 'LspDiagnosticsDefaultHint' }
+  { text = '', texthl = 'LspDiagnosticsDefaultHint' }
 )
 
 
