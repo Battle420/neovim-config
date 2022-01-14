@@ -15,5 +15,13 @@ cd ~/ # to be sure that we are in the home/(user) directory
 mkdir .config/ # if it doesn't already exists
 cd ~/.config/ && git clone https://github.com/Battle420/neovim-config.git
 mv neovim-config nvim #so that neovims knows what packs and config to use
+# we need to quickly rename init.lua and make a new one with only the minimal or else everything won't load
+mv init.lua old.lua && echo "require('plugins')" >> init.lua
+nvim # Let it launch for the first time and when done, run :PackerUpdate when possible
 ```
+After doing :PackerUpdate on Neovim, run the following:
+
+`
+rm init.lua && mv old.lua init.lua #put back in place the normal init.lua
+`
 # _That's all folks._
