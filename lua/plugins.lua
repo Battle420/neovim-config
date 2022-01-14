@@ -34,7 +34,6 @@ return require('packer').startup(function()
   use 'nvim-lua/popup.nvim'
   use 'nvim-telescope/telescope-media-files.nvim'
   use 'nvim-telescope/telescope-packer.nvim'
-  
   use {
   "folke/which-key.nvim",
   config = function()
@@ -57,6 +56,7 @@ use {
       require('cosmic-ui').setup()
     end,
   })}
+  use 'APZelos/blamer.nvim'
 -- LSP --
 use 'neovim/nvim-lspconfig'
 use 'hrsh7th/cmp-nvim-lsp'
