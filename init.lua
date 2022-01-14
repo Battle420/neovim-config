@@ -16,7 +16,7 @@ require('lualine').setup()
 require('bufferline').setup()
 --Smooth Scrolling --
 require('neoscroll').setup()
-
+require('vgit').setup()
 -- Theming --
 vim.opt.termguicolors = true
 vim.cmd[[colorscheme vscode]]

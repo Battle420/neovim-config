@@ -62,6 +62,11 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- Terminal --
 
 -- Plugins --
+--Select Code Run --
+keymap("v", "<leader>r", ":RunCodeSelected<CR>", opts)
+keymap("n", "<leader>r", ":RunCodeFile<CR>", opts)
+
+
 -- Chad Tree --
 keymap("n", "<leader>c", ":CHADopen<CR>", opts)
 -- Telescope + Extensions --
