@@ -1,0 +1,6 @@
+require('plugoptions.cmp')
+require('plugoptions.alphanvim')
+require('plugoptions.treesitter')
+require('plugoptions.bufferlineconf')
+require('plugoptions.telescopemedia')
+require('plugoptions.lualineconf')
