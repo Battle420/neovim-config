@@ -37,4 +37,5 @@ vim.o.wildmode           = "longest,full"                -- Display auto-complet
 vim.o.updatetime         = 30                           -- Delay until write to Swap and HoldCommand event
 
 --Global Plugin Options--
-vim.g.markdown_composer_syntax_theme = "github-dark"
+vim.g.blamer_delay = 500
+vim.g.blamer_template = '<committer> <commit-short> <summary> <committer-time>'
