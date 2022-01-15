@@ -122,23 +122,23 @@ require'nvim-tree'.setup {
         { key = "<Tab>",                        cb = tree_cb("preview") },
         { key = "R",                            cb = tree_cb("refresh") },
         { key = "h",                            cb = tree_cb("close_node") },
-        
+
         { key = "l",                            cb = tree_cb("edit") },
         { key = "v",                            cb = tree_cb("vsplit") },
         { key = "s",                            cb = tree_cb("split") },
         { key = "t",                            cb = tree_cb("tabnew") },
-        
+
         { key = "a",                            cb = tree_cb("create") },
         { key = "d",                            cb = tree_cb("remove") },
         { key = "r",                            cb = tree_cb("rename") },
         { key = "x",                            cb = tree_cb("cut") },
         { key = "c",                            cb = tree_cb("copy") },
         { key = "p",                            cb = tree_cb("paste") },
-        
+
         { key = "G",                           cb = tree_cb("prev_git_item") },
         { key = "g",                           cb = tree_cb("next_git_item") },
         { key = "?",                           cb = tree_cb("toggle_help") },
-        
+
         { key = "<",                            cb = tree_cb("prev_sibling") },
         { key = ">",                            cb = tree_cb("next_sibling") },
         { key = "P",                            cb = tree_cb("parent_node") },
@@ -163,7 +163,7 @@ require'nvim-tree'.setup {
   auto_close          = false,
   open_on_tab         = false,
   hijack_cursor       = false,
-  update_cwd          = false,
+  update_cwd          = true,
   update_to_buf_dir   = {
     enable = true,
     auto_open = true,
