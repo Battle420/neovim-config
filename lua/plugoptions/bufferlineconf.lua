@@ -3,7 +3,7 @@ options = {
 numbers = "", -- buffer_id at index 1, ordinal at index 2
 close_command = "bdelete! %d", -- can be a string | function, see "Mouse actions"
 right_mouse_command = "bdelete! %d", -- can be a string | function, see "Mouse actions"
-left_mouse_command = "buffer %d", -- can be a string | function, see "Mouse actions"
+left_mouse_command = "bd %d", -- can be a string | function, see "Mouse actions"
 middle_mouse_command = "vertical sbuffer %d", -- can be a string | function, see "Mouse actions"
 -- NOTE: this plugin is designed with this icon in mind,
 -- and so changing this is NOT recommended, this is intended
@@ -40,7 +40,7 @@ show_tab_indicators = true,
 persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
 -- can also be a table containing 2 custom separators
 -- [focused and unfocused]. eg: { '|', '|' }
-separator_style = "thick",
+separator_style = "slant",
 enforce_regular_tabs = true,
 always_show_bufferline = true,
 sort_by = 'id',
