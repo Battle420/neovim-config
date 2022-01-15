@@ -18,11 +18,18 @@ return require('packer').startup(function()
   use 'ryanoasis/vim-devicons'
   use 'tpope/vim-fugitive'
   use 'vim-syntastic/syntastic'
-  use {'ms-jpq/chadtree' , branch='chad', run='python3 -m chadtree deps'}
 
   use {"ellisonleao/glow.nvim",
   config= 'vim.g.glow_border = "rounded"'}
   use 'Mofiqul/vscode.nvim'
+
+  use {
+    'kyazdani42/nvim-tree.lua',
+    requires = {
+      'kyazdani42/nvim-web-devicons', -- optional, for file icon
+    },
+    config = function() require'nvim-tree'.setup {} end
+}
 
   use {
   'nvim-lualine/lualine.nvim',
@@ -48,14 +55,14 @@ use 'lewis6991/impatient.nvim'
 use 'goolord/alpha-nvim'
 use 'karb94/neoscroll.nvim'
 
-use {
+
       use({
     'CosmicNvim/cosmic-ui',
     requires = { 'MunifTanjim/nui.nvim', 'nvim-lua/plenary.nvim' },
     config = function()
       require('cosmic-ui').setup()
     end,
-  })}
+  })
 
 use 'arjunmahishi/run-code.nvim'
 

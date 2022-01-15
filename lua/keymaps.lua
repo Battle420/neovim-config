@@ -68,7 +68,7 @@ keymap("n", "<leader>r", ":RunCodeFile<CR>", opts)
 
 
 -- Chad Tree --
-keymap("n", "<leader>c", ":CHADopen<CR>", opts)
+keymap("n", "<leader>c", ":NvimTreeToggle<CR>", opts)
 -- Telescope + Extensions --
 keymap("n", "<leader>i", ":Telescope media_files<CR>", opts)
 keymap("n", "<leader>t", ":Telescope<CR>", opts)
