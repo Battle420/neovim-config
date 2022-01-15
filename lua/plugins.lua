@@ -94,4 +94,6 @@ use 'hrsh7th/nvim-cmp'
 use {'euclio/vim-markdown-composer', run="cargo build --release"}
 use 'williamboman/nvim-lsp-installer'
 use 'nvim-lua/lsp-status.nvim'
+use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
+use 'L3MON4D3/LuaSnip' -- Snippets plugin
 end)
