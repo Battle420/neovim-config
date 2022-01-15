@@ -19,5 +19,5 @@ require('neoscroll').setup()
 require('vgit').setup()
 -- Theming --
 vim.opt.termguicolors = true
-vim.cmd[[colorscheme vscode]]
-require('vscode').change_style("dark")
+vim.g.tokyonight_style = "night"
+vim.cmd[[colorscheme tokyonight]]
