@@ -48,5 +48,9 @@ use 'onsails/lspkind-nvim'
   requires = { 'MunifTanjim/nui.nvim', 'nvim-lua/plenary.nvim' },
   config = function() require('cosmic-ui').setup() end,})
   use { "folke/trouble.nvim",requires = "kyazdani42/nvim-web-devicons",}
-
+  use {
+           'goolord/alpha-nvim', branch = 'feature/startify-fortune',
+           requires = {'BlakeJC94/alpha-nvim-fortune'},
+           config = function() require("config.alpha") end
+       }
 end)
