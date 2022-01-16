@@ -1,9 +1,9 @@
 # My Neovim Config
 I am a casual Linux (Pop OS) user that doesn't much do programing, but I wanted to ditch VSCode so I opted in to transition to Neovim with Packer as a plugin manager
 
->When is this going to be updated?
+> Stable as much it is possible
 
-**When I remember it exists lol**
+![Screenshot of config](Preview.png)
 
 ## How to install my settings:
 #### Instructions for linux  
@@ -24,4 +24,4 @@ After doing :PackerUpdate on Neovim, run the following:
 `
 rm init.lua && mv old.lua init.lua #put back in place the normal init.lua
 `
-# _That's all folks._
+# _That's all folks.
