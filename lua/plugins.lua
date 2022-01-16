@@ -46,8 +46,5 @@ use 'onsails/lspkind-nvim'
   requires = { 'MunifTanjim/nui.nvim', 'nvim-lua/plenary.nvim' },
   config = function() require('cosmic-ui').setup() end,})
   use { "folke/trouble.nvim",requires = "kyazdani42/nvim-web-devicons",}
-  use {'tanvirtin/vgit.nvim',requires = { 'nvim-lua/plenary.nvim'}}
-  use {'euclio/vim-markdown-composer', run="cargo build --release"}
-  
 
 end)
