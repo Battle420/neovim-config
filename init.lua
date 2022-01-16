@@ -12,11 +12,11 @@ require("telescope").load_extension("packer")
 require('telescope').load_extension('media_files')
 -- Beautiful Status Line with git integration + more --
 require('lualine').setup()
+require('vgit').setup()
 -- Buffer "tabs" --
 require('bufferline').setup()
 --Smooth Scrolling --
 require('neoscroll').setup()
-require('vgit').setup()
 -- Theming --
 vim.opt.termguicolors = true
 vim.g.tokyonight_style = "night"

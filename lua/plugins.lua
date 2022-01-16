@@ -35,6 +35,8 @@ use 'onsails/lspkind-nvim'
 
   -- Git Integration
   use 'tpope/vim-fugitive'
+  use {'tanvirtin/vgit.nvim',requires = 
+  {'nvim-lua/plenary.nvim'}}
   use {'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} }}
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
