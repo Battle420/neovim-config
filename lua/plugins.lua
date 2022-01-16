@@ -18,7 +18,7 @@ return require('packer').startup(function()
   use 'arjunmahishi/run-code.nvim'
     -- Theme --
   use 'folke/tokyonight.nvim'
-  
+
   -- LSP --
 use 'neovim/nvim-lspconfig'
 use 'hrsh7th/cmp-nvim-lsp'
@@ -29,8 +29,9 @@ use 'hrsh7th/nvim-cmp'
 use 'williamboman/nvim-lsp-installer'
 use 'nvim-lua/lsp-status.nvim'
 use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
-use 'L3MON4D3/LuaSnip' -- Snippets plugin
-  
+use 'L3MON4D3/LuaSnip' -- Snippets plugins
+use 'onsails/lspkind-nvim'
+
   -- Git Integration
   use 'tpope/vim-fugitive'
   use {'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} }}

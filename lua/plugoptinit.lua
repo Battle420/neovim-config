@@ -1,4 +1,4 @@
-require('plugoptions.cmp')
+require('plugoptions.cmpconf')
 require('plugoptions.alphanvim')
 require('plugoptions.treesitter')
 require('plugoptions.bufferlineconf')
