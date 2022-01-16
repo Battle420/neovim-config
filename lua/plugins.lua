@@ -16,7 +16,8 @@ return require('packer').startup(function()
   use 'karb94/neoscroll.nvim'
   use 'arjunmahishi/run-code.nvim'
   use 'arjunmahishi/run-code.nvim'
-    -- Theme --
+  use 'p00f/nvim-ts-rainbow'
+  -- Theme --
   use 'folke/tokyonight.nvim'
 
   -- LSP --
