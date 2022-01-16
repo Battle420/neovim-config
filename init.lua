@@ -12,7 +12,6 @@ require("telescope").load_extension("packer")
 require('telescope').load_extension('media_files')
 -- Beautiful Status Line with git integration + more --
 require('lualine').setup()
-require('vgit').setup()
 -- Buffer "tabs" --
 require('bufferline').setup()
 --Smooth Scrolling --
@@ -21,3 +20,4 @@ require('neoscroll').setup()
 vim.opt.termguicolors = true
 vim.g.tokyonight_style = "night"
 vim.cmd[[colorscheme tokyonight]]
+vim.o.guifont ="MesloLGS NF"

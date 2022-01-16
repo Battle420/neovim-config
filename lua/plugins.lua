@@ -15,7 +15,6 @@ return require('packer').startup(function()
   use 'goolord/alpha-nvim'
   use 'karb94/neoscroll.nvim'
   use 'arjunmahishi/run-code.nvim'
-  use 'arjunmahishi/run-code.nvim'
   use 'p00f/nvim-ts-rainbow'
   -- Theme --
   use 'folke/tokyonight.nvim'
@@ -35,8 +34,10 @@ use 'onsails/lspkind-nvim'
 
   -- Git Integration
   use 'tpope/vim-fugitive'
-  use {'tanvirtin/vgit.nvim',requires = 
-  {'nvim-lua/plenary.nvim'}}
+  use {'lewis6991/gitsigns.nvim',
+  requires = {
+    'nvim-lua/plenary.nvim'
+  },}
   use {'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} }}
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
