@@ -13,7 +13,7 @@ require('telescope').load_extension('media_files')
 -- Beautiful Status Line with git integration + more --
 require('lualine').setup()
 -- Buffer "tabs" --
-require('bufferline').setup()
+-- require('bufferline').setup()
 --Smooth Scrolling --
 require('neoscroll').setup()
 -- Theming --

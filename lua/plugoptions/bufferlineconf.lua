@@ -1,3 +1,4 @@
+require('bufferline').setup()
 require('bufferline').setup {
 options = {
 numbers = "", -- buffer_id at index 1, ordinal at index 2
@@ -30,6 +31,8 @@ tab_size = 18,
 diagnostics = "nvim_lsp",
 diagnostics_update_in_insert = true,
 diagnostics_indicator = function(count, level, diagnostics_dict, context)
+local icon = level:match("error") and " " or " "
+  return " " .. icon .. count
 end,
 offsets = {{filetype = "NvimTree", text = "File Explorer" , text_align = "center" }},
 show_buffer_icons = true, -- disable filetype icons for buffers
