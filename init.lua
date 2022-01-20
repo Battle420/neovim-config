@@ -21,3 +21,5 @@ vim.opt.termguicolors = true
 vim.g.tokyonight_style = "night"
 vim.cmd[[colorscheme tokyonight]]
 vim.o.guifont ="MesloLGS NF"
+require("plugoptions.scrollbarconf")
+require("scrollbar").setup()

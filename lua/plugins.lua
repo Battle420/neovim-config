@@ -16,6 +16,7 @@ return require('packer').startup(function()
   use 'karb94/neoscroll.nvim'
   use 'arjunmahishi/run-code.nvim'
   use 'p00f/nvim-ts-rainbow'
+ use("petertriho/nvim-scrollbar")
   -- Theme --
   use 'folke/tokyonight.nvim'
 
