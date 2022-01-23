@@ -7,6 +7,7 @@ require('keymaps')
 -- Load all options --
 require('plugoptinit')
 require('options')
+require('presence')
 -- load Telescope extensions --
 require("telescope").load_extension("packer")
 require('telescope').load_extension('media_files')

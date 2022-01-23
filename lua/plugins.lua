@@ -18,6 +18,7 @@ return require('packer').startup(function()
   use 'p00f/nvim-ts-rainbow'
   use("petertriho/nvim-scrollbar")
   use('rcarriga/nvim-notify')
+  use('andweeb/presence.nvim')
   -- Theme --
   use 'folke/tokyonight.nvim'
 
