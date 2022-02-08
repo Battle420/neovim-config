@@ -12,8 +12,8 @@ require("telescope").load_extension("packer")
 require('telescope').load_extension('media_files')
 -- Beautiful Status Line with git integration + more --
 require('lualine').setup()
--- Buffer "tabs" --
--- require('bufferline').setup()
+-- Hop --
+require'hop'.setup()
 --Smooth Scrolling --
 require('neoscroll').setup()
 -- Theming --

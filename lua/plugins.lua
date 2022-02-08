@@ -56,4 +56,13 @@ use 'onsails/lspkind-nvim'
            requires = {'BlakeJC94/alpha-nvim-fortune'},
            config = function() require("config.alpha") end
        }
+  use {
+  'phaazon/hop.nvim',
+  branch = 'v1', -- optional but strongly recommended
+  config = function()
+    require'hop'.setup()
+    -- you can configure Hop the way you like here; see :h hop-config
+    require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+  end
+}
 end)
