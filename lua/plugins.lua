@@ -46,7 +46,7 @@ use 'onsails/lspkind-nvim'
   use {"ellisonleao/glow.nvim", config= 'vim.g.glow_border = "rounded"'}
   use {'kyazdani42/nvim-tree.lua', requires = {'kyazdani42/nvim-web-devicons', },
       config = function() require'nvim-tree'.setup {} end}
-  use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
+   use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
   use({'CosmicNvim/cosmic-ui',
   requires = { 'MunifTanjim/nui.nvim', 'nvim-lua/plenary.nvim' },
   config = function() require('cosmic-ui').setup() end,})
