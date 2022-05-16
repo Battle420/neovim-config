@@ -18,8 +18,8 @@ require'hop'.setup()
 require('neoscroll').setup()
 -- Theming --
 vim.opt.termguicolors = true
-vim.g.tokyonight_style = "night"
-vim.cmd[[colorscheme tokyonight]]
+local pywal = require('pywal')
+pywal.setup()
 vim.o.guifont ="MesloLGS NF"
 require("plugoptions.scrollbarconf")
 require("scrollbar").setup()

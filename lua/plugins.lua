@@ -19,7 +19,7 @@ return require('packer').startup(function()
   use("petertriho/nvim-scrollbar")
   use('rcarriga/nvim-notify')
   -- Theme --
-  use 'folke/tokyonight.nvim'
+  use 'AlphaTechnolog/pywal.nvim'
 
   -- LSP --
 use 'neovim/nvim-lspconfig'
