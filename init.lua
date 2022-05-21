@@ -20,6 +20,6 @@ require('neoscroll').setup()
 vim.opt.termguicolors = true
 local pywal = require('pywal')
 pywal.setup()
-vim.o.guifont ="MesloLGS NF"
+vim.o.guifont ="Fira Code Regular Nerd Font Complete"
 require("plugoptions.scrollbarconf")
 require("scrollbar").setup()
