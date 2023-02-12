@@ -21,5 +21,6 @@ vim.opt.termguicolors = true
 local pywal = require('pywal')
 pywal.setup()
 vim.o.guifont ="Fira Code Regular Nerd Font Complete"
+vim.g.gui_font_default_size = 7
 require("plugoptions.scrollbarconf")
 require("scrollbar").setup()

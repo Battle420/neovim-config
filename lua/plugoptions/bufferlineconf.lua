@@ -9,7 +9,7 @@ middle_mouse_command = "vertical sbuffer %d", -- can be a string | function, see
 -- NOTE: this plugin is designed with this icon in mind,
 -- and so changing this is NOT recommended, this is intended
 -- as an escape hatch for people who cannot bear it for whatever reason
-indicator_icon = '▎',
+indicator = '▎',
 buffer_close_icon = '',
 modified_icon = '●',
 close_icon = '',

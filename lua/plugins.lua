@@ -28,7 +28,8 @@ use 'hrsh7th/cmp-buffer'
 use 'hrsh7th/cmp-path'
 use 'hrsh7th/cmp-cmdline'
 use 'hrsh7th/nvim-cmp'
-use 'williamboman/nvim-lsp-installer'
+use 'williamboman/mason.nvim'
+use 'williamboman/mason-lspconfig.nvim'
 use 'nvim-lua/lsp-status.nvim'
 use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
 use 'L3MON4D3/LuaSnip' -- Snippets plugins
@@ -58,7 +59,6 @@ use 'onsails/lspkind-nvim'
        }
   use {
   'phaazon/hop.nvim',
-  branch = 'v1', -- optional but strongly recommended
   config = function()
     require'hop'.setup()
     -- you can configure Hop the way you like here; see :h hop-config

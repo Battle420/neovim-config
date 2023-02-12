@@ -35,7 +35,7 @@ vim.o.spelllang          = "en_gb"
 vim.o.completeopt        = "menuone,noinsert,noselect"
 vim.o.wildmode           = "longest,full"                -- Display auto-complete in Command Mode
 vim.o.updatetime         = 30                           -- Delay until write to Swap and HoldCommand event
-
+vim.o.undofile = true
 --Global Plugin Options--
 vim.g.blamer_delay = 500
 vim.g.blamer_template = '<committer> <commit-short> <summary> <committer-time>'
